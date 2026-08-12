@@ -1,0 +1,8 @@
+Groq is a hardware and inference company known for extremely fast LLM serving
+using their LPU (Language Processing Unit) chips. Unlike GPUs, LPUs are
+designed specifically for the sequential, memory-bound nature of transformer
+inference, which lets Groq serve open models like Llama and Mixtral at very
+high tokens-per-second rates with low latency. Groq offers an OpenAI-style
+chat completions API, so existing code that talks to similar APIs can often
+be adapted with minimal changes. Pricing is usage-based and per-token, and
+free-tier API keys are available for testing and small projects.
